@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #fafafa;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+
+
+.side-menu{
+    padding-left: 8%;
+    width: 50px;
+}
+
+.logo{
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+}
+
+.logo a{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu{
+    padding-top: 50px;
+    width: 100%;
+}
+
+.menu li{
+    margin-top: 40px;
+    list-style: none;
+}
+
+.menu li a{
+    color: rgb(77, 75, 75);
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.button{
+    margin-top: 60px;
+    color: white;
+    background-color: orangered;
+    position: relative;
+    border-radius: 20px;
+    padding: 10px 50px;
+    font-size: 20px;
+    position: absolute;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    display: flex;
+    padding-top: 100px;
+    margin-left: 50px;
+}
+
+.main-heading{
+    padding-left: 200px;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 70px;
+    flex-basis: 70%;
+}
+
+.main-para{
+    font-size: 15px;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.underline{
+    width: 30px;
+    height: 5px;
+    background-color: orangered;
+    border-radius: 3px;
+    position: relative;
+    margin-top: 130px;
+    
+}
+
+.card-container{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 70px;
+}
+
+.card{
+    background-color: #ffffff;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 10px 8px 15px rgba(66, 66, 66, 0.3);
+}
+
+.food{
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    /* margin: auto; */
+}
+
+.card-name{
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
